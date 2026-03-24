@@ -1,0 +1,16 @@
+# Choose cloud: aws or azure
+cloud: aws
+
+storage:
+  # AWS S3 bucket name
+  bucket_name: my-rag-bucket
+  # Azure container name
+  container_name: my-container
+
+ai:
+  # AWS Bedrock model ID
+  model_id: "amazon.titan-text-express-v1"
+  # For Azure, uncomment these:
+  # deployment_name: "gpt-35-turbo"
+  # endpoint: "https://your-resource.openai.azure.com/"
+  # api_version: "2023-12-01-preview"

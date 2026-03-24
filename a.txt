@@ -1,0 +1,20 @@
+cloud-agnostic-ai-stack/
+├── README.md
+├── requirements.txt
+├── config.yaml
+├── .env.example
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── storage.py           # Abstract storage class
+│   ├── ai_interface.py      # Abstract AI client
+│   ├── rag_pipeline.py      # RAG that uses storage + AI
+│   └── main.py              # CLI example
+├── terraform/
+│   ├── aws/
+│   │   └── main.tf
+│   └── azure/
+│       └── main.tf
+└── tests/
+    ├── __init__.py
+    └── test_storage.py
